@@ -4,7 +4,7 @@
 // https://youtu.be/8HEgeAbYphA
 // https://editor.p5js.org/codingtrain/sketches/zwGahux8a
 
-const socket = io('ws://localhost:8080');
+const socket = io('ws://192.168.178.32:8080');
 
 
 

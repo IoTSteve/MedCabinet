@@ -30,6 +30,16 @@ CHALLENGES
 //const server = new WebSocket.Server({ port: '8080' })
 
 
+document.querySelector('button').onclick = () => {
+
+  //const text = document.querySelector('input').value;
+  //socket.emit('message', text)
+  
+  console.log('button test')
+  
+}
+
+
 let video;  // webcam input
 let model;  // Face Landmarks machine-learning model
 let face;   // detected face

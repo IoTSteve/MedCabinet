@@ -1,4 +1,4 @@
-const socket = io('ws://localhost:8080');
+const socket = io('ws://192.168.178.32:8080');
 
 let testarray = ['peter', 2, 3]
 
@@ -10,7 +10,7 @@ socket.on('message', text => {
 
 });
 
-document.querySelector('button').onclick = () => {
+document.getElementById('snd').onclick = () => {
 
     //const text = document.querySelector('input').value;
     //socket.emit('message', text)
